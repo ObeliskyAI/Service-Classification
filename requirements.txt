@@ -1,0 +1,9 @@
+pydantic-settings
+asyncpg
+openai
+fastapi
+fastapi-health
+uvicorn
+rapidfuzz
+
+# conda activate service
