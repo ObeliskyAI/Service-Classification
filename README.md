@@ -1,3 +1,17 @@
+# Steps to start the project
+
+- conda create --name service
+
+- conda activate service
+
+- cd src
+
+- pip install -r requirements.txt
+
+- python main.py
+
+- open another terminal tab and run --> cd src --> python ngrok.py
+
 # Service Classifier
 
 - in this task we want to classify the patient Ambulatory services to fixed categoris

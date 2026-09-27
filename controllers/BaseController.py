@@ -27,4 +27,13 @@ class BaseController:
     def get_physiotherapy_keywords(self):
       return self.keywords_dict["PHYSIOTHERAPY"]
 
+    def get_risk_keywords(self):
+       return self.keywords_dict["RISK"]
+
+    def get_exception_keywords(self):
+       return self.keywords_dict["EXCEPTION"]
+
+    def get_benfits_keywords(self):
+       return self.keywords_dict["BENFITS"]
+
 

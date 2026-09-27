@@ -23,3 +23,21 @@ class ClassificationRequest(BaseModel):
     service_description: str = Field(
         alias="SERVICE DESC"
     )
+
+
+
+
+class BenfitsRequest(BaseModel):
+
+    model_config = ConfigDict(
+        populate_by_name=True,
+        json_schema_extra={
+            "example": {
+                "DRC CODE": "DRC001: Exception - Teeth not covered under this plan"
+            }
+        }
+    )
+
+    drc_code: str = Field(
+        alias="DRC CODE"
+    )

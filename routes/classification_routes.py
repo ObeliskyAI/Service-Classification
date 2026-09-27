@@ -14,7 +14,7 @@ logger = logging.getLogger('uvicorn.error')
 
 classsification_router = base_router
 
-@classsification_router.post("/classify")
+@classsification_router.post("/direct_classification/classify")
 async def direct_classification(request: Request, data: ClassificationRequest):
 
     classifier = DirectClassifyService()
