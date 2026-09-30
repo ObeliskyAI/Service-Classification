@@ -1,1 +1,1 @@
-from .request import ClassificationRequest , BenfitsRequest
+from .request import ClassificationRequest , BenfitsRequest,NotesRequest

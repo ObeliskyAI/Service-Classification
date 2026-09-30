@@ -75,7 +75,11 @@ class Keywords():
         "Pre-Existing",
         "(Critical - Chronic - Pre-Existing)",
         "AUTOIMMUNE",
-        "maternity"
+        "maternity",
+        "genetic",
+        "congenital",
+        "laser",
+        "immune",
     ]
 }
 

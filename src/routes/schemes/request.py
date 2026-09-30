@@ -27,6 +27,9 @@ class ClassificationRequest(BaseModel):
 
 
 
+
+
+
 class BenfitsRequest(BaseModel):
 
     model_config = ConfigDict(
@@ -38,6 +41,31 @@ class BenfitsRequest(BaseModel):
         }
     )
 
+    drc_code: str = Field(
+        alias="DRC CODE"
+    )
+
+
+
+
+
+class NotesRequest(BaseModel):
+
+    model_config = ConfigDict(
+        populate_by_name=True,
+        json_schema_extra={
+            "example": {
+                "notes": "["","",""]",
+                "drc_code":""
+            }
+        }
+    )
+
+
+    notes:list = Field(
+        alias="Notes"
+    )
+    
     drc_code: str = Field(
         alias="DRC CODE"
     )

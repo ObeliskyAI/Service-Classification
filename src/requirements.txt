@@ -5,5 +5,6 @@ fastapi
 fastapi-health
 uvicorn
 rapidfuzz
-
+python-docx
+argostranslate
 # conda activate service
